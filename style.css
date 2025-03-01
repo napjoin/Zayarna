@@ -1,0 +1,187 @@
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(to bottom, #7cf2fe, #1325ae);
+}    
+
+
+
+nav {
+    text-align: center;
+    color: black;
+}           
+
+
+a {
+    text-decoration: none;
+}
+
+header h1 {
+    background-image: linear-gradient(to right, #7cf2fe, #1325ae);
+}
+
+main h2 {
+    text-align: center;
+}
+
+.paragraph1 {
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+    padding: 20px;
+    border: 5px dashed rgba(25, 73, 169, 0.753);
+    border-radius: 10px
+}
+
+section {
+    color: white;
+}
+
+.ori {
+    width: 900px;
+    height: 420px;
+    background-image: linear-gradient(rgb(145, 197, 255), rgb(255, 255, 255));
+    padding: 30px;
+    border-radius: 10px;
+    right: 20px;
+    border: 5px dashed rgb(0, 0, 0);
+    margin-bottom: 20px;
+    color: darkblue;
+}
+
+.oriim {
+    left: 350px;
+    width: 150px;
+}
+
+.orip {
+    font-size: 20px;
+    text-align: center;
+}
+
+.kuro {
+    width: 900px;
+    height: 420px;
+    background-image: linear-gradient(rgb(22, 22, 118), rgb(24, 0, 59));
+    padding: 30px;
+    border-radius: 10px;
+    right: 20px;
+    border: 5px dashed white;
+    margin-bottom: 20px;
+}
+
+.kuroim {
+    left: 290px;
+}
+
+.sein {
+    width: 900px;
+    height: 420px;
+    background-image: linear-gradient(rgb(98, 171, 255), rgb(0, 166, 255));
+    padding: 30px;
+    border-radius: 10px;
+    right: 20px;
+    border: 5px dashed white;
+    margin-bottom: 20px;
+}
+
+.naru {
+        width: 900px;
+    height: 420px;
+    background-image: linear-gradient(rgb(45, 45, 75), rgb(77, 77, 133));
+    padding: 30px;
+    border-radius: 10px;
+    right: 20px;
+    border: 5px dashed white;
+    margin-bottom: 20px;
+}
+
+.spirittree {    
+    width: 900px;
+    height: 420px;
+    background-image: linear-gradient(rgb(35, 35, 132), rgb(17, 17, 77));
+    padding: 30px;
+    border-radius: 10px;
+    right: 20px;
+    border: 5px dashed white;
+    margin-bottom: 20px;
+} 
+
+.gumo {
+    width: 900px;
+    height: 420px;
+    background-image: linear-gradient(rgb(35, 35, 132), rgb(17, 17, 77));
+    padding: 30px;
+    border-radius: 10px;
+    right: 20px;
+    border: 5px dashed white;
+    margin-bottom: 20px;
+}
+
+@keyframes rainbow{
+    0% {
+        background-color:red;
+    }
+    14% {
+        background-color: orange;
+    }
+    28% {
+        background-color: yellow;
+    }
+    42% { 
+        background-color: green;
+    }
+    56% {
+        background-color: aqua;
+    }
+    70% {
+        background-color: blue;
+    }
+    84% {
+        background-color: purple;
+    }
+    98% {
+        background-color: red;
+    }
+    100% {
+        background-color: orange;
+    }
+}
+
+.work:hover {
+    animation: 2s rainbow infinite;
+}
+
+.work {
+    background-color: white;
+    border: dashed rgb(40, 114, 156) 3px;
+}
+
+.text::after {
+    display: inline-block;
+    content: "Note: This is the official Ori and the Blind Forest Wiki.
+    The information was nOTR taken from the Fan Ori Wiki.";
+    background-color: white;
+}
+
+.text:hover::after {
+    opacity: 1;
+    transition: 0.5s;
+    content: ".....trust me.............";
+}
+
+.skeleton {
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    opacity: 0;
+}
+
+.skeleton:hover {
+    opacity: 1;
+    transition: 4s;
+}
+
+.kuroim {
+    width: 500px;
+    height: 200px;
+}
