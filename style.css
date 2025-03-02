@@ -169,19 +169,27 @@ section {
     content: ".....trust me.............";
 }
 
-.skeleton {
-    position: fixed;
-    height: 200px;
-    width: 200px;
-    opacity: 0;
-}
-
-.skeleton:hover {
-    opacity: 1;
-    transition: 4s;
-}
-
 .kuroim {
     width: 500px;
     height: 200px;
+} 
+
+.seinimg {
+    width: 130px;
+    height: 160px;
+}
+
+.gumoimg {
+     width: 150px;
+    height: 200px;
+}
+
+.cooler {
+    position: fixed;
+    opacity: 0;
+}
+
+.cooler:hover {
+    transition: 3s;
+    opacity: 1;
 }
